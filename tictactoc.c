@@ -10,3 +10,12 @@ const char COMPUTER = 'O';
 void resetBoard();
 void printBoard();
 int checkFreeSpaces();
+void playerMove();
+void computerMove();
+char checkWinner();
+void printWinner(char);
+
+int main()
+{
+    char winner = ''
+}
