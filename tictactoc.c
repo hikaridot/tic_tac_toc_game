@@ -18,4 +18,8 @@ void printWinner(char);
 int main()
 {
     char winner = ''
+
+    return 0;
 }
+
+void resetBoard();
