@@ -17,9 +17,26 @@ void printWinner(char);
 
 int main()
 {
-    char winner = ''
+    char winner = '';
+
+    resetBoard();
+
 
     return 0;
 }
 
 void resetBoard();
+{
+   for(int i = 0; i < 3; i++)
+   {
+      
+   }
+}
+void printBoard()
+{
+
+}
+int checkFreeSpaces()
+{
+
+}
