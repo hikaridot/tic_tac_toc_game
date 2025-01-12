@@ -20,6 +20,7 @@ int main()
     char winner = '';
 
     resetBoard();
+    printBoard();
 
 
     return 0;
@@ -29,7 +30,10 @@ void resetBoard();
 {
    for(int i = 0; i < 3; i++)
    {
-      
+      for (int j = 0; j < 3; j++)
+      {
+        board[i][j] = '';
+      }
    }
 }
 void printBoard()
