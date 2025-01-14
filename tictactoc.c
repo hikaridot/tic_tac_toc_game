@@ -20,7 +20,7 @@ int main()
     char winner = '';
 
     resetBoard();
-    while()
+    while(winner == '' && checkFreeSpaces() != 0)
     {
       printBoard();
     }
