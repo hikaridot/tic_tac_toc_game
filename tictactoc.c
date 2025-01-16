@@ -58,7 +58,11 @@ int checkFreeSpaces()
    {
       for (int j = 0; j < 3; j++)
       {
-         
+         if(board[i][j] != ' ')
+         {
+            freeSpaces--;
+         }
       }
    }
+   return freeSpaces;
 }
