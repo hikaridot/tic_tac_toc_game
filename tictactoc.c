@@ -23,6 +23,8 @@ int main()
     while(winner == '' && checkFreeSpaces() != 0)
     {
       printBoard();
+
+      playerMove();
     }
     
 
@@ -65,4 +67,14 @@ int checkFreeSpaces()
       }
    }
    return freeSpaces;
+}
+void playerMove()
+{
+   int x;
+   int y;
+
+
+   printf("Enter row #(1-3)");
+   scanf("%d", &x);
+   x--;
 }
