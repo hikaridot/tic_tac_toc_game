@@ -80,6 +80,12 @@ void playerMove()
    scanf("%d" , &y");
    y--;
 
-   
-
+   if(board[x][y] != ' ')
+   {
+      printf("Invalid move!\n");
+   }
+   else 
+   {
+      board[x][y] = PLAYER;
+   }
 }
