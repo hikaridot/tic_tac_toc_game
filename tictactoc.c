@@ -25,6 +25,7 @@ int main()
       printBoard();
 
       playerMove();
+      winner = checkWinner();
     }
     
 
