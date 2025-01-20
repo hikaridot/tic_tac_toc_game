@@ -78,7 +78,7 @@ void playerMove()
    scanf("%d", &x);
    x--;
    printf("Enter column #(1-3): ");
-   scanf("%d" , &y");
+   scanf("%d" , &y);
    y--;
 
    if(board[x][y] != ' ')
