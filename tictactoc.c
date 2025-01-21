@@ -100,4 +100,10 @@ char checkWinner()
          return board[i][0];
       }
    }
+   //check columns
+}
+void printWinner(char winner)
+{
+
+
 }
